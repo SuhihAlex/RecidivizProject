@@ -31,14 +31,14 @@ document.addEventListener('click', function(event) {
   }
 });
 
-// Reset the burger icon when clicking outside of it
-document.addEventListener('click', function(event) {
-  const menuToggle = document.querySelector('.burger');
+// // Reset the burger icon when clicking outside of it
+// document.addEventListener('click', function(event) {
+//   const menuToggle = document.querySelector('.burger');
   
-  if (!menuToggle.contains(event.target)) {
-    menuToggle.classList.remove('open');
-  }
-});
+//   if (!menuToggle.contains(event.target)) {
+//     menuToggle.classList.remove('open');
+//   }
+// });
 
 
 /*====== MODAL ======*/
